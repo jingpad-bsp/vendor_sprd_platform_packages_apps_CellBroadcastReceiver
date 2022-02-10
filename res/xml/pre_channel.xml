@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!--
+    <prechannel channel_id="4370" channel_name="President alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4383" channel_name="President alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4371" channel_name="Extreme Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4372" channel_name="Extreme Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4384" channel_name="Extreme Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4385" channel_name="Extreme Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4373" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4374" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4375" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4376" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4377" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4378" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4386" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4387" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4388" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4389" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4390" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4391" channel_name="Severe Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4379" channel_name="Amber Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4392" channel_name="Amber Alert" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4380" channel_name="Required monthly test" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4381" channel_name="Required monthly test" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4393" channel_name="Required monthly test" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+    <prechannel channel_id="4394" channel_name="Required monthly test" editable = "0" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/7" notification="1"></prechannel>
+  -->
+</root>

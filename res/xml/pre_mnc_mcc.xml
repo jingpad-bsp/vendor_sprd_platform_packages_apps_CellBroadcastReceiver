@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- if carrier need to set emergency alert disable defaultly, add it's mcc、mnc at this xml file-->
+<root>
+    <mncmcc mncmcc_id="1" mnc="10" mcc="650"></mncmcc>
+    <mncmcc mncmcc_id="2" mnc="01" mcc="650"></mncmcc>
+    <mncmcc mncmcc_id="3" mnc="01" mcc="624"></mncmcc>
+    <mncmcc mncmcc_id="4" mnc="02" mcc="624"></mncmcc>
+    <mncmcc mncmcc_id="5" mnc="04" mcc="624"></mncmcc>
+    <mncmcc mncmcc_id="6" mnc="22" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="7" mnc="14" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="8" mnc="11" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="9" mnc="01" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="10" mnc="10" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="11" mnc="18" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="12" mnc="06" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="13" mnc="44" mcc="641"></mncmcc>
+    <mncmcc mncmcc_id="14" mnc="30" mcc="621"></mncmcc>
+    <mncmcc mncmcc_id="15" mnc="20" mcc="621"></mncmcc>
+    <mncmcc mncmcc_id="16" mnc="50" mcc="621"></mncmcc>
+    <mncmcc mncmcc_id="17" mnc="60" mcc="621"></mncmcc>
+    <mncmcc mncmcc_id="18" mnc="40" mcc="621"></mncmcc>
+    <mncmcc mncmcc_id="19" mnc="10" mcc="655"></mncmcc>
+</root>

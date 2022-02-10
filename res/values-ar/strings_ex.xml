@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="enable_cellbroadcast">"تمكين البث الخلوي"</string>
+<string name="toast_airplane_mode">"يرجة إيقاف وضعية الطيران أولا!"</string>
+<string name="cellbroadcast_need_enable">"يرجى تمكين البث الخلوي أولا!"</string>
+    <string name="no">"إلغاء"</string>
+<string name="edit">تعديل</string>
+<string name="save">"موافق"</string>
+    <string name="alert">"تنبيه"</string>
+<string name="remind_save">"هل أنت متأكد من تجاهل كل التغييرات؟"</string>
+    <string name="channel_list">قائمة القنوات</string>
+<string name="channel_name">اسم القناة</string>
+<string name="channel_number">رقم القناة</string>
+<string name="menu_delete_channel">"حذف الكل"</string>
+    <string name="channel_settings">"إعدادات القناة"</string>
+<string name="input_channel_name">"يجب ألا يكون الاسم فارغا."</string>
+<string name="silence">"صامت"</string>
+<string name="set_ringtone">"تعيين نغمة رنين"</string>
+<string name="vibrate_enable">"تمكين الاهتزاز"</string>
+<string name="notification_enable">"تمكين الإشعارات"</string>
+    <string name="menu_delete_sigle_channel">"حذف"</string>
+<string name="cb_message_save">"حفظ رسائل البث الخلوي"</string>
+<string name="cell_bc_sms_enable">"تمكين الرسائل القصيرة للبث الخلوي"</string>
+    <string name="info_input_channel_number">"من فضلك قم بإدخال رقم القناة"</string>
+<string name="info_input_channel_number_num">"من فضلك قم بإدخال الأرقام فقط"</string>
+<string name="same_setting">"يرجى إعادة تعيين رقم القناة، رقم هذه القناة موجود بالفعل"</string>
+<string name="toast_input_channel_number_exceed">يرجى إدخال رقم القناة (0-65535)</string>
+<string name="lang_german">الألمانية</string>
+<string name="lang_english">الإنجليزية</string>
+<string name="lang_italian">الإيطالية</string>
+<string name="lang_french">الفرنسية </string>
+<string name="lang_spanish">الأسبانية</string>
+<string name="lang_dutch">"هولندي"</string>
+<string name="lang_swedish">اللغة السويدية</string>
+<string name="lang_danish">الدانماركية</string>
+<string name="lang_portuguese">البرتغالية</string>
+<string name="lang_finnish">الفنلندية</string>
+<string name="lang_norwegian">النرويجية</string>
+<string name="lang_greek">"اليونانية"</string>
+<string name="lang_turkish">التركية</string>
+<string name="lang_hungarian">المجري</string>
+<string name="lang_polish">"بولندي"</string>
+<string name="lang_czech">التشيكية</string>
+<string name="lang_hebrew">"عبري"</string>
+<string name="lang_arabic">"العربية"</string>
+<string name="lang_russian">الروسية</string>
+<string name="lang_icelandic">الأيسلاندية</string>
+<string name="language_list">"قائمة اللغات"</string>
+<string name="language_settings">"إعدادات اللغة"</string>
+<string name="language_had_been_added">"هذه القناة يمكن إضافتها"</string>
+<string name="action_add">إضافة</string>
+<string name="action_save">"حفظ"</string>
+<string name="requre_permission">"افتح الأذون المناسبة في الإعدادات"</string>
+<string name="choose_sim">"اختر بطاقة Sim"</string>
+<!-- modify this begin. -->
+    <string name="cmas_presidential_level_alert1">"تحذير طارئ وطني"</string>
+    <string name="cmas_extreme_alert1">"تحذير طارئ"</string>
+    <string name="cmas_amber_alert1">"رسائل تحذيرية"</string>
+    <string name="cmas_required_monthly_test1">"رسالة تجريبية"</string>
+    <string name="cmas_exercise_alert1">"تمرين"</string>
+
+    <!-- Add for Dubai PWS setting, bug655113-->
+    <string name="category_dubai_settings_title">"إعدادات تنبيه الطوارئ اللاسلكية"</string>
+    <string name="enable_channel_4370_4383_alerts_title">"الرسائل التحذيرية الوطنية"</string>
+    <string name="enable_channel_4379_4392_alerts_title">"الرسائل التحذيرية"</string>
+    <string name="enable_channel_4380_4393_alerts_title">"الرسالة التجريبية"</string>
+    <!-- Add for Dubai PWS setting, bug655113-->
+</resources>

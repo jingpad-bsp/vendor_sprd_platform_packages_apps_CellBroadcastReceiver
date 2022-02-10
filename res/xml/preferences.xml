@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2011 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Enable all CB channels include the emergency channels. -->
+    <PreferenceCategory android:title="@string/enable_cellbroadcast"
+                        android:key="category_enable_cellbroadcast">
+
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="enable_emergency_alerts"
+            android:summary="@string/enable_emergency_alerts_summary"
+            android:title="@string/enable_emergency_alerts_title" />
+
+    </PreferenceCategory>
+
+    <!-- General and CMAS emergency alert settings. -->
+    <PreferenceCategory android:title="@string/emergency_alert_settings_title"
+                        android:key="category_alert_settings">
+
+        <!-- Enable CMAS Extreme Threat alerts -->
+        <CheckBoxPreference android:defaultValue="true"
+                            android:key="enable_cmas_extreme_threat_alerts"
+                            android:summary="@string/enable_cmas_extreme_threat_alerts_summary"
+                            android:title="@string/enable_cmas_extreme_threat_alerts_title" />
+
+        <!-- Enable CMAS Severe Threat alerts -->
+        <CheckBoxPreference android:defaultValue="true"
+                            android:key="enable_cmas_severe_threat_alerts"
+                            android:summary="@string/enable_cmas_severe_threat_alerts_summary"
+                            android:title="@string/enable_cmas_severe_threat_alerts_title" />
+
+        <!-- Enable CMAS AMBER alerts -->
+        <CheckBoxPreference android:defaultValue="true"
+                            android:key="enable_cmas_amber_alerts"
+                            android:summary="@string/enable_cmas_amber_alerts_summary"
+                            android:title="@string/enable_cmas_amber_alerts_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_alert_vibrate"
+            android:summary="@string/enable_alert_vibrate_summary"
+            android:title="@string/enable_alert_vibrate_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_alert_speech"
+            android:summary="@string/enable_alert_speech_summary"
+            android:title="@string/enable_alert_speech_title" />
+
+        <ListPreference
+            android:dialogTitle="@string/alert_reminder_interval_title"
+            android:entries="@array/alert_reminder_interval_entries"
+            android:entryValues="@array/alert_reminder_interval_values"
+            android:key="alert_reminder_interval"
+            android:title="@string/alert_reminder_interval_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/category_peru_setting_title"
+        android:key="category_peru_setting">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4370_919_alerts"
+            android:title="@string/enable_channel_4370_919_alerts_summary" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4383_alerts"
+            android:title="@string/enable_channel_4383_alerts_summary" />
+
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="enable_channel_4382_alerts"
+            android:title="@string/enable_channel_4382_alerts_summary" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4380_519_alerts"
+            android:title="@string/enable_channel_4380_519_alerts_summary" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4381_519_alerts"
+            android:title="@string/enable_channel_4381_519_alerts_summary" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4396_4399_alerts"
+            android:title="@string/enable_channel_4396_4399_alerts_summary" />
+    </PreferenceCategory>
+
+    <!-- Add for Dubai PWS setting, bug655113-->
+    <PreferenceCategory
+        android:key="category_dubai_settings"
+        android:title="@string/category_dubai_settings_title">
+
+        <!-- the channel range is 4371 to 4378-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_all_alerts"
+            android:title="@string/enable_channel_all_alerts_title" />
+
+        <!-- the channel are 4370 and 4383-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4370_4383_alerts"
+            android:summary="@string/enable_channel_4370_4383_alerts_summary"
+            android:title="@string/enable_channel_4370_4383_alerts_title" />
+
+
+        <!-- the channel are 4380 and 4393-->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="enable_channel_4380_4393_alerts"
+            android:title="@string/enable_channel_4380_4393_alerts_title" />
+
+        <!-- the channel range is 4379 and 4392-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4379_4392_alerts"
+            android:title="@string/enable_channel_4379_4392_alerts_title" />
+
+        <!-- the channel range is 4396 and 4397-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_4396_4397_alerts"
+            android:title="@string/enable_channel_4396_4397_alerts_title" />
+
+        <Preference
+            android:defaultValue="false"
+            android:key="alert_tone_preview"
+            android:summary="@string/alert_tone_preview_summary"
+            android:title="@string/alert_tone_preview_title" />
+
+    </PreferenceCategory>
+
+    <!-- Emergency alert settings for ETWS. -->
+    <PreferenceCategory
+        android:key="category_etws_settings"
+        android:title="@string/category_etws_settings_title">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_etws_test_alerts"
+            android:summary="@string/enable_etws_test_alerts_summary"
+            android:title="@string/enable_etws_test_alerts_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_brazil_settings"
+        android:title="@string/category_brazil_settings_title">
+
+        <!-- Default value is true for Brazil. This preference is ignored and hidden
+             unless the boolean "show_brazil_settings" is set to true in config.xml. -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_channel_50_alerts"
+            android:summary="@string/enable_channel_50_alerts_summary"
+            android:title="@string/enable_channel_50_alerts_title" />
+
+    </PreferenceCategory>
+
+    <!-- Add for Taiwan PWS setting, bug1017316-->
+    <PreferenceCategory android:title="@string/category_taiwan_settings_title"
+        android:key="category_taiwan_settings">
+
+        <!-- the channel are 911 and 919-->
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="enable_channel_911_919_alerts_tw"
+            android:summary="@string/enable_channel_911_919_alerts_summary"
+            android:title="@string/enable_channel_911_919_alerts_title" />
+
+        <!-- the channel are 4370 and 4383-->
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="enable_channel_4370_4383_alerts_tw"
+            android:summary="@string/enable_channel_4370_4383_alerts_summary_taiwan"
+            android:title="@string/enable_channel_4370_4383_alerts_title_taiwan"
+            android:checked="true"
+            android:enabled="false"/>
+
+        <!-- the channel range is 4371 to 4379-->
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="enable_channel_4371_4379_alerts_tw"
+            android:summary="@string/enable_channel_4371_4379_alerts_summary"
+            android:title="@string/enable_channel_4371_4379_alerts_title" />
+
+        <!-- the channel range is 4384 to 4392-->
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="enable_channel_4384_4392_alerts_tw"
+            android:summary="@string/enable_channel_4384_4392_alerts_summary"
+            android:title="@string/enable_channel_4384_4392_alerts_title" />
+
+        <!-- the channel are 4380 and 4393-->
+        <CheckBoxPreference android:defaultValue="false"
+            android:key="enable_channel_4380_4393_alerts_tw"
+            android:summary="@string/enable_channel_4380_4393_alerts_summary_taiwan"
+            android:title="@string/enable_channel_4380_4393_alerts_title_taiwan"
+            android:checked="false"/>
+
+    </PreferenceCategory>
+    <!-- End for Taiwan PWS setting, bug1017316-->
+
+    <PreferenceCategory
+        android:key="category_newzealand_setting"
+        android:title="@string/category_nz_setting_title">
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="key_nz_control_4370_alert"
+            android:title="@string/nz_control_4370_alert_title"
+            android:checked="true"
+            android:enabled="false"/>
+
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="key_nz_control_4371_4372_alert"
+            android:title="@string/nz_control_4371_4372_alert_title"
+            android:checked="true"/>
+
+        <CheckBoxPreference android:defaultValue="true"
+            android:key="key_nz_control_4373_4378_alert"
+            android:title="@string/nz_control_4373_4378_alert_title"
+            android:checked="true"/>
+
+        <ListPreference
+            android:dialogTitle="@string/alert_reminder_interval_title"
+            android:entries="@array/alert_reminder_interval_entries"
+            android:entryValues="@array/alert_reminder_interval_values"
+            android:key="alert_reminder_interval"
+            android:title="@string/alert_reminder_interval_title" />
+    </PreferenceCategory>
+
+    <!-- Only visible when Developer options toggle is enabled in Settings. -->
+    <PreferenceCategory
+        android:key="category_dev_settings"
+        android:title="@string/category_dev_settings_title">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="enable_cmas_test_alerts"
+            android:summary="@string/enable_cmas_test_alerts_summary"
+            android:title="@string/enable_cmas_test_alerts_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_cmas_opt_out_dialog"
+            android:summary="@string/show_cmas_opt_out_summary"
+            android:title="@string/show_cmas_opt_out_title" />
+
+    </PreferenceCategory>
+    </PreferenceScreen>
+
+

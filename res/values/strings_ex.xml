@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Spreadst. -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="enable_cellbroadcast">Wireless Emergency alerts</string>
+    <string name="toast_airplane_mode">Please turn off the Airplane mode first!</string>
+    <string name="cellbroadcast_need_enable">Please enabled CellBroadcast first!</string>
+
+    <string name="no">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="save">OK</string>
+
+    <!-- add for bug 528208 -->
+    <string name="alert">Alert</string>
+    <string name="remind_save">Are you sure discard all changed?</string>
+
+    <string name="channel_list">Channel List</string>
+    <string name="channel_name">Channel name</string>
+    <string name="channel_number">Channel number</string>
+    <string name="menu_delete_channel">Delete All</string>
+
+    <!-- Channel Settings -->
+    <string name="channel_settings">Channel Settings</string>
+    <string name="input_channel_name">The name must not empty.</string>
+
+    <string name="silence">Silence</string>
+    <string name="set_ringtone">Set Ringtone</string>
+    <string name="vibrate_enable">Enable Vibrate</string>
+    <string name="notification_enable">Enable Notification</string>
+
+    <string name="menu_delete_sigle_channel">Delete</string>
+    <string name="cb_message_save">Save Cellbroadcast Message</string>
+    <string name="cell_bc_sms_enable">Enable Cell Broadcast SMS</string>
+
+    <string name="info_input_channel_number">Please enter channel number</string>
+    <string name="info_input_channel_number_num">The channel number has illegal characters,please modify it.</string>
+    <string name="same_setting">Please reset channel number,this channel number already exists </string>
+    <string name="toast_input_channel_number_exceed">Please input channel number(0-65535).</string>
+
+    <!-- Language List -->
+    <string name="lang_german" translatable="false">German</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_italian" translatable="false">Italian</string>
+    <string name="lang_french" translatable="false">French</string>
+    <string name="lang_spanish" translatable="false">Spanish</string>
+    <string name="lang_dutch" translatable="false">Dutch</string>
+    <string name="lang_swedish" translatable="false">Swedish</string>
+    <string name="lang_danish" translatable="false">Danish</string>
+    <string name="lang_portuguese" translatable="false">Portuguese</string>
+    <string name="lang_finnish" translatable="false">Finnish</string>
+    <string name="lang_norwegian" translatable="false">Norwegian</string>
+    <string name="lang_greek" translatable="false">Greek</string>
+    <string name="lang_turkish" translatable="false">Turkish</string>
+    <string name="lang_hungarian" translatable="false">Hungarian</string>
+    <string name="lang_polish" translatable="false">Polish</string>
+    <string name="lang_czech" translatable="false">Czech</string>
+    <string name="lang_hebrew" translatable="false">Hebrew</string>
+    <string name="lang_arabic" translatable="false">Arabic</string>
+    <string name="lang_russian" translatable="false">Russian</string>
+    <string name="lang_icelandic" translatable="false">Icelandic</string>
+
+    <string name="language_list">Language List</string>
+    <string name="language_settings">Language Settings</string>
+
+    <string name="language_had_been_added">This language had been added</string>
+    <!-- add for bug 533469 -->
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+
+    <!-- add for bug 545539 -->
+    <string name="requre_permission">"Open the appropriate permissions in the settings"</string>
+
+    <!-- Add for MTC setting-->
+
+    <string name="enable_channel_4370_919_alerts_summary" translatable="false">"Local Alert"</string>
+    <string name="enable_channel_4383_alerts_summary" translatable="false">"Local Alert (another language)"</string>
+
+    <string name="enable_channel_4382_alerts_summary" translatable="false">"Information"</string>
+    <string name="enable_channel_4380_519_alerts_summary" translatable="false">"Test"</string>
+
+    <string name="enable_channel_4381_519_alerts_summary" translatable="false">"Simulacrum"</string>
+    <string name="enable_channel_4396_4399_alerts_summary" translatable="false">"Channels Reserved"</string>
+
+    <!-- Add for MTC setting-->
+
+    <string name="cmas_presidential_level_alert_4370_919_title" translatable="false">Alerta de Emergencia</string>
+    <string name="cmas_information_alert_4382_title" translatable="false">Mensaje Informativo</string>
+
+    <string name="cmas_test_alert_4380_519_title" translatable="false">Alerta de Emergencia – mensaje de Prueba</string>
+    <string name="cmas_test_alert_4381_title" translatable="false">Alerta de Emergencia – mensaje de Ejercicio / Simulacro</string>
+
+
+    <string name="cmas_presidential_level_alert1" translatable="false">National Emergency Alert</string>
+    <!-- CMAS dialog title for extreme alert. [CHAR LIMIT=50] -->
+    <string name="cmas_extreme_alert1" translatable="false">Emergency Alert</string>
+    <!-- CMAS dialog title for child abduction emergency (Amber Alert). [CHAR LIMIT=50] -->
+    <string name="cmas_amber_alert1" translatable="false">Warning Alert</string>
+    <!-- CMAS dialog title for required monthly test. [CHAR LIMIT=50] -->
+    <string name="cmas_required_monthly_test1" translatable="false">Test Alert</string>
+    <!-- CMAS dialog title for CMAS Exercise. [CHAR LIMIT=50] -->
+    <string name="cmas_exercise_alert1" translatable="false">Exercise</string>
+    <string name="choose_sim">Cell broadcast</string>
+    <string name="cmas_presidential_level_alert_ar" translatable="false">"تحذير طارئ وطني"</string>
+    <string name="cmas_extreme_alert_ar" translatable="false">"تحذير طارئ"</string>
+    <string name="cmas_severe_alert1" translatable="false">"تحذير طارئ"</string>
+    <string name="cmas_amber_alert_ar" translatable="false">"رسائل تحذيرية"</string>
+    <string name="cmas_required_monthly_test_ar" translatable="false">"رسالة تجريبية"</string>
+    <string name="cmas_exercise_alert_ar" translatable="false">"تمرين"</string>
+    <string name="cmas_public_safety_alert_ar" translatable="false">"تحذير: السلامة العامة"</string>
+    <string name="button_dismiss_ar" translatable="false">حسنا</string>
+
+    <string name="cmas_presidential_level_alert_en" translatable="false">National Emergency Alert</string>
+    <string name="cmas_extreme_alert_en" translatable="false">Emergency Alert</string>
+    <string name="cmas_amber_alert_en" translatable="false">Warning Alert</string>
+    <string name="cmas_required_monthly_test_en" translatable="false">Test Alert</string>
+    <string name="cmas_exercise_alert_en" translatable="false">Exercise</string>
+    <string name="cmas_public_safety_alert_en" translatable="false">Public Safety Alert</string>
+<!-- modify this end. -->
+
+    <!-- Add for Dubai PWS setting, bug655113-->
+    <string name="category_dubai_settings_title" translatable="false">"Wireless Emergency alert settings"</string>
+    <string name="enable_channel_4370_4383_alerts_title" translatable="false">"Show Presidential alert"</string>
+    <string name="enable_channel_4370_4383_alerts_summary" translatable="false">"Display presidential level alerts"</string>
+    <string name="enable_channel_all_alerts_title" translatable="false">"All Alerts on"</string>
+    <string name="enable_channel_4379_4392_alerts_title" translatable="false">"Warning Alerts"</string>
+    <string name="enable_channel_4380_4393_alerts_title" translatable="false">"Test Alerts"</string>
+    <string name="enable_channel_4396_4397_alerts_title" translatable="false">Public Safety Alerts</string>
+    <string name="alert_tone_preview_title" translatable="false">Alert tone preview</string>
+    <string name="alert_tone_preview_summary" translatable="false">Preview the alert tone</string>
+    <!-- Add for Dubai PWS setting, bug655113-->
+
+    <!-- Add for Taiwan PWS setting, bug1017316-->
+    <string name="category_taiwan_settings_title" translatable="false">"TAIWAN PWS Settings"</string>
+    <string name="enable_channel_911_919_alerts_summary" translatable="false">"警訊通知/Alert Message"</string>
+    <string name="enable_channel_911_919_alerts_title" translatable="false">"911/919"</string>
+    <string name="enable_channel_4370_4383_alerts_summary_taiwan" translatable="false">"國家級警報/Presidential Alert"</string>
+    <string name="enable_channel_4370_4383_alerts_title_taiwan" translatable="false">"4370/4383"</string>
+    <string name="enable_channel_4371_4379_alerts_summary" translatable="false">"緊急警報"</string>
+    <string name="enable_channel_4371_4379_alerts_title" translatable="false">"4371-4379"</string>
+    <string name="enable_channel_4384_4392_alerts_summary" translatable="false">"Emergency Alert"</string>
+    <string name="enable_channel_4384_4392_alerts_title" translatable="false">"4384-4392"</string>
+    <string name="enable_channel_4380_4393_alerts_summary_taiwan" translatable="false">"每月測試用訊息/Required Monthly Test"</string>
+    <string name="enable_channel_4380_4393_alerts_title_taiwan" translatable="false">"4380/4393"</string>
+
+    <!-- Add for New Zealand setting -->
+    <string name="category_nz_setting_title" translatable="false">"New Zealand Pws Settings</string>
+    <string name="nz_control_4370_alert_title" translatable="false">"Emergency Alert(hightest level alert)"</string>
+    <string name="nz_control_4371_4372_alert_title" translatable="false">"Extreme Alert"</string>
+    <string name="nz_control_4373_4378_alert_title" translatable="false">"Severe Alert"</string>
+
+</resources>

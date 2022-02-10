@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "com.android.cellbroadcastreceiver.tests"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 100
+        versionName "1.0.0"
+    }
+    sourceSets {
+        main {
+            res.srcDirs = ['res']
+            java.srcDirs = ['src']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "CellbroadcastReceiverTests.apk"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file("../signature/release/signs_release.jks")
+            storePassword '123456'
+            keyAlias 'platform'
+            keyPassword '123456'
+        }
+        debug {
+            storeFile file("../signature/debug/signs_debug.jks")
+            storePassword '123456'
+            keyAlias 'platform'
+            keyPassword '123456'
+        }
+    }
+}
